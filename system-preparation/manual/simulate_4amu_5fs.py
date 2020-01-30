@@ -56,7 +56,7 @@ forcefield = app.ForceField(*ffxml_filenames)
 
 # Create the system
 print('Creating OpenMM System...')
-system = forcefield.createSystem(modeller.topology, nonbondedMethod=app.PME, constraints=app.HBonds, removeCMMotion=False, hydrogenMass=hydrogen_mass)
+system = forcefield.createSystem(pdb.topology, nonbondedMethod=app.PME, constraints=app.HBonds, removeCMMotion=False, hydrogenMass=hydrogen_mass)
 
 # Add a barostat
 print('Adding barostat...')
@@ -72,8 +72,8 @@ with open(integrator_xml_filename, 'w') as outfile:
 
 # Minimize
 # print('Minimizing energy...')
-# context = openmm.Context(system, integrator)
-# context.setPositions(modeller.positions)
+context = openmm.Context(system, integrator)
+context.setPositions(pdb.positions)
 # print('  initial : %8.3f kcal/mol' % (context.getState(getEnergy=True).getPotentialEnergy()/unit.kilocalories_per_mole))
 # openmm.LocalEnergyMinimizer.minimize(context)
 # print('  final   : %8.3f kcal/mol' % (context.getState(getEnergy=True).getPotentialEnergy()/unit.kilocalories_per_mole))

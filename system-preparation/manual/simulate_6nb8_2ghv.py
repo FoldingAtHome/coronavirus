@@ -31,12 +31,11 @@ system_xml_filename = 'system.xml'
 integrator_xml_filename = 'integrator.xml'
 state_xml_filename = 'state.xml'
 
-# Read in the NMR model
+# Read in the heavy atom model
 pdb_filename = '6nb8_2ghv_complex_fixed.pdb'
 print('Loading %s' % pdb_filename)
 pdb = app.PDBFile(pdb_filename)
 
-# Use Amber 14SB (which has parameters for C-terminal -NH2)
 print("Loading forcefield: %s" % ffxml_filenames)
 forcefield = app.ForceField(*ffxml_filenames)
 

@@ -41,7 +41,6 @@ pdb_filename = 'equilibrated.pdb'
 print('Loading %s' % pdb_filename)
 pdb = app.PDBFile(pdb_filename)
 
-# Use Amber 14SB (which has parameters for C-terminal -NH2)
 print("Loading forcefield: %s" % ffxml_filenames)
 forcefield = app.ForceField(*ffxml_filenames)
 

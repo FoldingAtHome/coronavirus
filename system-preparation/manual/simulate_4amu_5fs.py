@@ -19,7 +19,7 @@ ffxml_filenames = ['amber14/protein.ff14SB.xml', 'amber14/tip3p.xml']
 
 pressure = 1.0 * unit.atmospheres
 temperature = 310 * unit.kelvin
-collision_rate = 91.0 / unit.picoseconds
+collision_rate = 1.0 / unit.picoseconds
 timestep = 5.0 * unit.femtoseconds
 splitting = 'V R O R V'
 nsteps = 500 # 2.5 ps
@@ -33,7 +33,10 @@ system_xml_filename = 'system_5fs.xml'
 integrator_xml_filename = 'integrator_5fs.xml'
 state_xml_filename = 'state_5fs.xml'
 
-# Read in the NMR model
+system_load_xml_filename = 'system.xml'
+state_load_xml_filename = 'state.xml'
+
+# Read in the model
 pdb_filename = 'equilibrated.pdb'
 print('Loading %s' % pdb_filename)
 pdb = app.PDBFile(pdb_filename)
@@ -55,13 +58,16 @@ forcefield = app.ForceField(*ffxml_filenames)
 #     app.PDBFile.writeFile(modeller.topology, modeller.positions, file=outfile, keepIds=True)
 
 # Create the system
-print('Creating OpenMM System...')
-system = forcefield.createSystem(pdb.topology, nonbondedMethod=app.PME, constraints=app.HBonds, removeCMMotion=False, hydrogenMass=hydrogen_mass)
+# print('Creating OpenMM System...')
+# system = forcefield.createSystem(pdb.topology, nonbondedMethod=app.PME, constraints=app.HBonds, removeCMMotion=False, hydrogenMass=hydrogen_mass)
+print('Loading OpenMM System...')
+with open(system_load_xml_filename, 'r') as infile:
+    system = openmm.XmlSerializer.deserialize(infile.read())
 
 # Add a barostat
-print('Adding barostat...')
-barostat = openmm.MonteCarloBarostat(pressure, temperature)
-system.addForce(barostat)
+# print('Adding barostat...')
+# barostat = openmm.MonteCarloBarostat(pressure, temperature)
+# system.addForce(barostat)
 
 # Serialize integrator
 print('Serializing integrator to %s' % integrator_xml_filename)
@@ -72,13 +78,19 @@ with open(integrator_xml_filename, 'w') as outfile:
 
 # Minimize
 # print('Minimizing energy...')
-context = openmm.Context(system, integrator)
-context.setPositions(pdb.positions)
+# context = openmm.Context(system, integrator)
+# context.setPositions(pdb.positions)
 # print('  initial : %8.3f kcal/mol' % (context.getState(getEnergy=True).getPotentialEnergy()/unit.kilocalories_per_mole))
 # openmm.LocalEnergyMinimizer.minimize(context)
 # print('  final   : %8.3f kcal/mol' % (context.getState(getEnergy=True).getPotentialEnergy()/unit.kilocalories_per_mole))
 # with open(minimized_pdb_filename, 'w') as outfile:
 #     app.PDBFile.writeFile(modeller.topology, context.getState(getPositions=True,enforcePeriodicBox=True).getPositions(), file=outfile, keepIds=True)
+
+print('Loading OpenMM State...')
+with open(state_load_xml_filename, 'r') as infile:
+    state = openmm.XmlSerializer.deserialize(infile.read())
+context = openmm.Context(system, integrator)
+context.setState(state)
 
 # Equilibrate
 print('Equilibrating...')
@@ -89,7 +101,7 @@ elapsed_time = (time.time() - initial_time) * unit.seconds
 simulation_time = niterations * nsteps * timestep
 print('    Equilibration took %.3f s for %.3f ns (%8.3f ns/day)' % (elapsed_time / unit.seconds, simulation_time / unit.nanoseconds, simulation_time / elapsed_time * unit.day / unit.nanoseconds))
 with open(equilibrated_pdb_filename, 'w') as outfile:
-    app.PDBFile.writeFile(modeller.topology, context.getState(getPositions=True,enforcePeriodicBox=True).getPositions(), file=outfile, keepIds=True)
+    app.PDBFile.writeFile(pdb.topology, context.getState(getPositions=True,enforcePeriodicBox=True).getPositions(), file=outfile, keepIds=True)
 print('  final   : %8.3f kcal/mol' % (context.getState(getEnergy=True).getPotentialEnergy()/unit.kilocalories_per_mole))
 
 # Serialize state

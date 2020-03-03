@@ -2,7 +2,7 @@
 Simulations of SARS-CoV and SARS-CoV-2 protein-antibody complexes
 
 ## SARS-CoV Spike protein receptor-binding domain:S230 antibody
-Raw structures: 
+RCSB Structures: 
 * 6NB7 - SARS-CoV complex with human neutralizing S230 antibody Fab fragment (state 2) (4.5 angstrom, Cryo-EM)
 * 6NB8 - anti- SARS-CoV human neutralizing S230 antibody Fab fragment (1.5 angstrom, X-ray diffraction)
 * 2AJF - SARS coronavirus spike receptor-binding domain complexed with ACE2 (2.9 angstrom, X-ray diffraction)
@@ -22,6 +22,7 @@ Raw structures:
 5. Run equilibrated structures on F@h
 
 ## SARS-CoV-2 Spike protein receptor-binding domain:ACE2
+RCSB Structures: 
 * 2AJF - SARS coronavirus spike receptor-binding domain complexed with ACE2 (2.9 angstrom, X-ray diffraction)
 
 1. Downloaded homology model of 2AJF SARS-CoV RBD to SARS-CoV-2 RBD: https://swissmodel.expasy.org/interactive/HLkhkP/models/11
@@ -34,6 +35,7 @@ Raw structures:
 5. Run equilibrated structure on F@h
 
 ## SARS-CoV-2 main protease:peptide inhibitor
+RCSB Structures: 
 * 6LU7 - SARS-CoV-2 main protease in complex with an inhibitor N3
 
 1. Prepare initial structures using PyMOL manually:

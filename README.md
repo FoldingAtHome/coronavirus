@@ -10,7 +10,7 @@ RCSB Structures:
 
 ### Capped structures
 1. Prepare initial structures using PyMOL manually:
-* Extract RBD from 2GHV. 
+* Extract RBD from 2GHV, truncate 6NB7 to include only RBD and variable domain of S230 antibody, truncate 6NB8 to only include variable domain of S230 antibody.
 2. Replace low resolution structures with high resolution structures using Chimera:
 * Load 6NB7, 6NB8, 2GHV into Chimera. Use Tools > Structure Comparison > MatchMaker to align 2GHV to the RBD of 6NB7 and 6NB8 to the antibody of 6NB7. Delete 6NB7 stucture and save model.
 3. Generate homology model using SWISS-MODEL of 2GHV SARS-CoV to SARS-CoV-2 RBD

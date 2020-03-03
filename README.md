@@ -1,7 +1,7 @@
 # coronavirus
 Simulations of SARS-CoV and SARS-CoV-2 protein-antibody complexes
 
-## SARS-CoV Spike protein receptor-binding domain:S230 antibody
+## SARS-CoV and SARS-Cov-2 Spike protein receptor-binding domain:S230 antibody
 RCSB Structures: 
 * 6NB7 - SARS-CoV complex with human neutralizing S230 antibody Fab fragment (state 2) (4.5 angstrom, Cryo-EM)
 * 6NB8 - anti- SARS-CoV human neutralizing S230 antibody Fab fragment (1.5 angstrom, X-ray diffraction)
@@ -45,6 +45,7 @@ Directories:
 Directories:
 * system_preparation/6nb8_2ajf/sars_uncapped
 * system_preparation/6nb8_2ghv/sars_uncapped
+Note: we did not prepare SARS-CoV-2 using this approach. See capped structure for SARS-CoV-2 RBD:S230 Antibody
 
 ## SARS-CoV-2 Spike protein receptor-binding domain:ACE2
 RCSB Structures: 

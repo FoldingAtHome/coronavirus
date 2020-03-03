@@ -38,12 +38,12 @@ RCSB Structures:
 RCSB Structures: 
 * 6LU7 - SARS-CoV-2 main protease in complex with an inhibitor N3
 
-1. Prepare initial structures using PyMOL manually:
+1. Rename and renumber peptide inhibitor chain using PDBFixer:
+* Run 6LU7 through edit_residues.py to add rename all residues in the peptide inhibitor chain to the same residue name and id. Also rename atoms to have unique names.
+2. Prepare initial structures using PyMOL manually:
 * Remove waters from 6LU7
 * Extract peptide inhibitor and save as separate PDB.
 * Extract protease and save as separate PDB.
-2. Rename and renumber peptide inhibitor chain using PDBFixer:
-* Run the peptide inhibitor sturcture through edit_residues.py to add rename all residues in the peptide inhibitor chain to the same residue name and id. Also rename atoms to have unique names.
 3. Protonate and cap the protease using Schrodinger's Maestro
 4. Prepare system and equilibrate using OpenMM:
 * Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 2amu hydrogens with simulate_6lu7_complex.py and simulate_6lu7_receptor.py

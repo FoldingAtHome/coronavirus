@@ -8,6 +8,7 @@ RCSB Structures:
 * 2AJF - SARS coronavirus spike receptor-binding domain (RBD) complexed with ACE2 (2.9 angstrom, X-ray diffraction)
 * 2GHV - SARS spike protein receptor binding domain (RBD) (2.2 angstrom, X-ray diffraction)
 
+### Capped structures
 1. Prepare initial structures using PyMOL manually:
 * Extract RBD from 2GHV. 
 2. Replace low resolution structures with high resolution structures using Chimera:

@@ -24,8 +24,8 @@ RCSB Structures:
 7. Run equilibrated structures on F@h
 
 Directories:
-* system_preparation/6nb8_2ghv/sars_capped
-* system_preparation/6nb8_2ghv/sars-2_capped
+* system_preparation/6nb8_2ghv/sars_capped/
+* system_preparation/6nb8_2ghv/sars-2_capped/
 
 ### Uncapped structures
 
@@ -43,8 +43,8 @@ Directories:
 5. Run equilibrated structures on F@h
 
 Directories:
-* system_preparation/6nb8_2ajf/sars_uncapped
-* system_preparation/6nb8_2ghv/sars_uncapped
+* system_preparation/6nb8_2ajf/sars_uncapped/
+* system_preparation/6nb8_2ghv/sars_uncapped/
 Note: we did not prepare SARS-CoV-2 using this approach. See capped structure for SARS-CoV-2 RBD:S230 Antibody
 
 ## SARS-CoV-2 Spike protein receptor-binding domain:ACE2
@@ -61,7 +61,7 @@ RCSB Structures:
 5. Run equilibrated structure on F@h
 
 Directory:
-* system-preparation/2ajf_sars-2
+* system-preparation/2ajf_sars-2/
 
 ## SARS-CoV-2 main protease:peptide inhibitor
 RCSB Structures: 
@@ -81,15 +81,15 @@ RCSB Structures:
 6. Run equilibrated structures on F@h
 
 Directories: 
-* system-preparation/6lu7_complex
-* system-preparation/6lu7_receptor
+* system-preparation/6lu7_complex/
+* system-preparation/6lu7_receptor/
 
 ## SARS-CoV-2 spike Spike protein receptor-binding domain:ACE2
 RCSB Structures: 
 * 6ACG - Trypsin-cleaved and low pH-treated SARS-CoV spike glycoprotein and ACE2 complex, ACE2-bound conformation 1 (5.4 angstrom, Cryo-EM)
 * 6SVB - Prefusion 2019-nCoV spike glycoprotein with a single receptor-binding domain (RBD) up (3.46 angstrom, Cryo-EM)
 
-0. Obtained model of 6VSB superposed onto 6ACG from SWISS-MODEL
+0. Obtain model of 6VSB superposed onto 6ACG from SWISS-MODEL
 1. From this model, truncate the RBD from the spike protein:
 * Run model through truncate.py
 2. Protonate and cap the protease using Schrodinger's Maestro
@@ -100,4 +100,4 @@ RCSB Structures:
 5. Run equilibrated structures on F@h
 
 Directories: 
-* system-preparation/6acg_6vsb
+* system-preparation/6acg_6vsb/

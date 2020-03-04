@@ -48,6 +48,8 @@ Directories:
 Note: we did not prepare SARS-CoV-2 using this approach. See capped structure for SARS-CoV-2 RBD:S230 Antibody
 
 ## SARS-CoV-2 Spike protein receptor-binding domain:ACE2
+
+### Using homology model of SARS-CoV to SARS-CoV-2 RBD
 RCSB Structures: 
 * 2AJF - SARS coronavirus spike receptor-binding domain (RBD) complexed with ACE2 (2.9 angstrom, X-ray diffraction)
 
@@ -55,13 +57,32 @@ RCSB Structures:
 2. Protonate and cap using Schrodinger's Maestro:
 * Also, minimize hydrogens to remove atom clashes.
 3. Prepare system and equilibrate using OpenMM:
-* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_2ajf_sars-cov-2.py
+* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_2ajf_sars-2.py
 4. Equilibrate at longer time step using OpenMM:
 * Starting from the above equilibrated snapshot, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with simulate_4amu_4fs.py
 5. Run equilibrated structure on F@h
 
 Directory:
 * system-preparation/2ajf_sars-2/
+
+### Using Cryo-EM structure of SARS-CoV-2 RBD
+RCSB Structures: 
+* 6ACG - Trypsin-cleaved and low pH-treated SARS-CoV spike glycoprotein and ACE2 complex, ACE2-bound conformation 1 (5.4 angstrom, Cryo-EM)
+* 6SVB - Prefusion 2019-nCoV spike glycoprotein with a single receptor-binding domain (RBD) up (3.46 angstrom, Cryo-EM)
+
+0. Obtain model of 6VSB superposed onto 6ACG from SWISS-MODEL
+1. From this model, truncate the RBD from the spike protein:
+* Run model through truncate.py
+2. Protonate and cap the protease using Schrodinger's Maestro
+3. Prepare system and equilibrate using OpenMM:
+* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6acg_6vsb.py
+4. Equilibrate at longer time step using OpenMM:
+* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with simulate_4amu_4fs.py
+5. Run equilibrated structures on F@h
+
+Directories: 
+* system-preparation/6acg_6vsb/
+
 
 ## SARS-CoV-2 main protease:peptide inhibitor
 RCSB Structures: 
@@ -83,21 +104,3 @@ RCSB Structures:
 Directories: 
 * system-preparation/6lu7_complex/
 * system-preparation/6lu7_receptor/
-
-## SARS-CoV-2 spike Spike protein receptor-binding domain:ACE2
-RCSB Structures: 
-* 6ACG - Trypsin-cleaved and low pH-treated SARS-CoV spike glycoprotein and ACE2 complex, ACE2-bound conformation 1 (5.4 angstrom, Cryo-EM)
-* 6SVB - Prefusion 2019-nCoV spike glycoprotein with a single receptor-binding domain (RBD) up (3.46 angstrom, Cryo-EM)
-
-0. Obtain model of 6VSB superposed onto 6ACG from SWISS-MODEL
-1. From this model, truncate the RBD from the spike protein:
-* Run model through truncate.py
-2. Protonate and cap the protease using Schrodinger's Maestro
-3. Prepare system and equilibrate using OpenMM:
-* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6acg_6vsb.py
-4. Equilibrate at longer time step using OpenMM:
-* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with simulate_4amu_4fs.py
-5. Run equilibrated structures on F@h
-
-Directories: 
-* system-preparation/6acg_6vsb/

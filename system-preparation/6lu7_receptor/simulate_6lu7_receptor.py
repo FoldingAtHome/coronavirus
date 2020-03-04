@@ -12,7 +12,7 @@ from simtk.openmm import app
 water_model = 'tip3p'
 solvent_padding = 10.0 * unit.angstroms
 ionic_strength = 150 * unit.millimolar
-hydrogen_mass = 2.0 * unit.amu
+hydrogen_mass = 4.0 * unit.amu
 
 ffxml_filenames = ['amber14/protein.ff14SB.xml', 'amber14/tip3p.xml']
 

@@ -15,7 +15,7 @@ import progressbar
 water_model = 'tip3p'
 solvent_padding = 10.0 * unit.angstroms
 ionic_strength = 150 * unit.millimolar
-hydrogen_mass = 2.0 * unit.amu
+hydrogen_mass = 4.0 * unit.amu
 
 ffxml_filenames = ['amber14/protein.ff14SB.xml', 'amber14/tip3p.xml']
 
@@ -61,12 +61,10 @@ with open('output/complex.pdb', 'w') as outfile:
 
 # Create system generator
 print("Setting up SystemGenerator for complex...")
-forcefield_files = ['amber/protein.ff14SB.xml', 'amber14/tip3pfb.xml']
-barostat = openmm.MonteCarloBarostat(1.0*unit.atmosphere, 300.0*unit.kelvin)
+barostat = openmm.MonteCarloBarostat(pressure, temperature)
 forcefield_kwargs = {'removeCMMotion': False, 'ewaldErrorTolerance': 1e-04, 'nonbondedMethod': app.PME, 'constraints' : app.HBonds, 
-                     'hydrogenMass' : 4*unit.amu}
-
-system_generator = SystemGenerator(forcefields=forcefield_files, barostat=barostat, forcefield_kwargs=forcefield_kwargs, 
+                     'hydrogenMass' : hydrogen_mass}
+system_generator = SystemGenerator(forcefields=ffxml_filenames, barostat=barostat, forcefield_kwargs=forcefield_kwargs, 
                                    molecules=[ligand], 
                                    small_molecule_forcefield='gaff-2.11')
 

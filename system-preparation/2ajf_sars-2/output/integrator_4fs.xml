@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<Integrator constraintTolerance="1e-08" kineticEnergyExpression="m*v*v/2" randomSeed="0" stepSize=".004" type="CustomIntegrator" version="2">
+	<GlobalVariables _restorable__class_hash="1138558804" a=".9960079893439915" b=".0892641314467314" has_kT_changed="1" kT="2.5774864660782666"/>
+	<PerDofVariables>
+		<sigma>
+			<Value x="0" y="0" z="0"/>
+		</sigma>
+		<x1>
+			<Value x="0" y="0" z="0"/>
+		</x1>
+	</PerDofVariables>
+	<Computations>
+		<Computation computationExpression="" computationType="5" computationVariable=""/>
+		<Computation computationExpression="has_kT_changed = 1" computationType="6" computationVariable=""/>
+		<Computation computationExpression="sqrt(kT/m)" computationType="1" computationVariable="sigma"/>
+		<Computation computationExpression="0" computationType="0" computationVariable="has_kT_changed"/>
+		<Computation computationExpression="" computationType="8" computationVariable=""/>
+		<Computation computationExpression="v + (dt / 2) * f / m" computationType="1" computationVariable="v"/>
+		<Computation computationExpression="" computationType="4" computationVariable=""/>
+		<Computation computationExpression="x + ((dt / 2) * v)" computationType="1" computationVariable="x"/>
+		<Computation computationExpression="x" computationType="1" computationVariable="x1"/>
+		<Computation computationExpression="" computationType="3" computationVariable=""/>
+		<Computation computationExpression="v + ((x - x1) / (dt / 2))" computationType="1" computationVariable="v"/>
+		<Computation computationExpression="" computationType="4" computationVariable=""/>
+		<Computation computationExpression="(a * v) + (b * sigma * gaussian)" computationType="1" computationVariable="v"/>
+		<Computation computationExpression="" computationType="4" computationVariable=""/>
+		<Computation computationExpression="x + ((dt / 2) * v)" computationType="1" computationVariable="x"/>
+		<Computation computationExpression="x" computationType="1" computationVariable="x1"/>
+		<Computation computationExpression="" computationType="3" computationVariable=""/>
+		<Computation computationExpression="v + ((x - x1) / (dt / 2))" computationType="1" computationVariable="v"/>
+		<Computation computationExpression="" computationType="4" computationVariable=""/>
+		<Computation computationExpression="v + (dt / 2) * f / m" computationType="1" computationVariable="v"/>
+		<Computation computationExpression="" computationType="4" computationVariable=""/>
+	</Computations>
+	<Functions/>
+</Integrator>

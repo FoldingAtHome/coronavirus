@@ -19,15 +19,15 @@ RCSB Structures:
 * Load 6NB7, 6NB8, 2GHV (homology modeled to SARS-CoV-2 RBD) into Chimera. Use Tools > Structure Comparison > MatchMaker to align 2GHV to the RBD of 6NB7 and 6NB8 to the antibody of 6NB7. Delete 6NB7 stucture and save model.
 5. Prepare system and equilibrate using OpenMM:
 * Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6nb8_2ghv.py
-4. Equilibrate at longer time step using OpenMM:
+6. Equilibrate at longer time step using OpenMM:
 * Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
-5. Run equilibrated structures on F@h
+7. Run equilibrated structures on F@h
 
 Directories:
 * system_preparation/6nb8_2ghv/sars_capped
 * system_preparation/6nb8_2ghv/sars-2_capped
 
-### Uncappped structures
+### Uncapped structures
 
 1. Prepare initial structures using PyMOL manually:
 * From the low resolution 6NB7 select and save the monomeric, truncated fragments of interest --> 6nb7_rbd_ab_fragment.pdb
@@ -76,10 +76,28 @@ RCSB Structures:
 3. Protonate and cap the protease using Schrodinger's Maestro
 4. Prepare system and equilibrate using OpenMM:
 * Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6lu7_complex.py and simulate_6lu7_receptor.py
+5. Equilibrate at longer time step using OpenMM:
+* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
+6. Run equilibrated structures on F@h
+
+Directories: 
+* system-preparation/6lu7_complex
+* system-preparation/6lu7_receptor
+
+## SARS-CoV-2 spike Spike protein receptor-binding domain:ACE2
+RCSB Structures: 
+* 6ACG - Trypsin-cleaved and low pH-treated SARS-CoV spike glycoprotein and ACE2 complex, ACE2-bound conformation 1 (5.4 angstrom, Cryo-EM)
+* 6SVB - Prefusion 2019-nCoV spike glycoprotein with a single receptor-binding domain (RBD) up (3.46 angstrom, Cryo-EM)
+
+0. Obtained model of 6VSB superposed onto 6ACG from SWISS-MODEL
+1. From this model, truncate the RBD from the spike protein:
+* Run model through truncate.py
+2. Protonate and cap the protease using Schrodinger's Maestro
+3. Prepare system and equilibrate using OpenMM:
+* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6acg_6vsb.py
 4. Equilibrate at longer time step using OpenMM:
 * Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
 5. Run equilibrated structures on F@h
 
 Directories: 
-* system-preparation/6lu7_complex
-* system-preparation/6lu7_receptor
+* system-preparation/6acg_6vsb

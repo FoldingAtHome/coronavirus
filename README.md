@@ -20,7 +20,7 @@ RCSB Structures:
 5. Prepare system and equilibrate using OpenMM:
 * Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6nb8_2ghv.py
 6. Equilibrate at longer time step using OpenMM:
-* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
+* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with simulate_4amu_4fs.py
 7. Run equilibrated structures on F@h
 
 Directories:
@@ -39,7 +39,7 @@ Directories:
 3. Prepare system and equilibrate using OpenMM:
 * Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6nb8_2ajf.py and simulate_6nb8_2ghv.py
 4. Equilibrate at longer time step using OpenMM:
-* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
+* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with simulate_4amu_4fs.py
 5. Run equilibrated structures on F@h
 
 Directories:
@@ -57,7 +57,7 @@ RCSB Structures:
 3. Prepare system and equilibrate using OpenMM:
 * Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_2ajf_sars-cov-2.py
 4. Equilibrate at longer time step using OpenMM:
-* Starting from the above equilibrated snapshot, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
+* Starting from the above equilibrated snapshot, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with simulate_4amu_4fs.py
 5. Run equilibrated structure on F@h
 
 Directory:
@@ -96,7 +96,7 @@ RCSB Structures:
 3. Prepare system and equilibrate using OpenMM:
 * Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6acg_6vsb.py
 4. Equilibrate at longer time step using OpenMM:
-* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
+* Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with simulate_4amu_4fs.py
 5. Run equilibrated structures on F@h
 
 Directories: 

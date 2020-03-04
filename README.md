@@ -51,7 +51,7 @@ Note: we did not prepare SARS-CoV-2 using this approach. See capped structure fo
 RCSB Structures: 
 * 2AJF - SARS coronavirus spike receptor-binding domain (RBD) complexed with ACE2 (2.9 angstrom, X-ray diffraction)
 
-1. Downloade homology model of 2AJF SARS-CoV RBD to SARS-CoV-2 RBD: https://swissmodel.expasy.org/interactive/HLkhkP/models/11
+1. Download homology model of 2AJF SARS-CoV RBD to SARS-CoV-2 RBD: https://swissmodel.expasy.org/interactive/HLkhkP/models/11
 2. Protonate and cap using Schrodinger's Maestro:
 * Also, minimize hydrogens to remove atom clashes.
 3. Prepare system and equilibrate using OpenMM:

@@ -18,7 +18,7 @@ RCSB Structures:
 4. Replace low resolution structures with high resolution structures using Chimera:
 * Load 6NB7, 6NB8, 2GHV (homology modeled to SARS-CoV-2 RBD) into Chimera. Use Tools > Structure Comparison > MatchMaker to align 2GHV to the RBD of 6NB7 and 6NB8 to the antibody of 6NB7. Delete 6NB7 stucture and save model.
 5. Prepare system and equilibrate using OpenMM:
-* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 2amu hydrogens with simulate_6nb8_2ghv.py
+* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6nb8_2ghv.py
 4. Equilibrate at longer time step using OpenMM:
 * Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
 5. Run equilibrated structures on F@h
@@ -37,7 +37,7 @@ Directories:
 * Run the resulting structures through PDBFixer (run_pdbfixer.py) to add a few atoms missing at the termini
   * Note: PDBFixer did not add missing residues to 6NB8_2AJF because no SEQRES given --> ignore this structure for now 
 3. Prepare system and equilibrate using OpenMM:
-* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 2amu hydrogens with simulate_6nb8_2ajf.py and simulate_6nb8_2ghv.py
+* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6nb8_2ajf.py and simulate_6nb8_2ghv.py
 4. Equilibrate at longer time step using OpenMM:
 * Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
 5. Run equilibrated structures on F@h
@@ -55,7 +55,7 @@ RCSB Structures:
 2. Protonate and cap using Schrodinger's Maestro:
 * Also, minimize hydrogens to remove atom clashes.
 3. Prepare system and equilibrate using OpenMM:
-* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 2amu hydrogens with simulate_2ajf_sars-cov-2.py
+* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_2ajf_sars-cov-2.py
 4. Equilibrate at longer time step using OpenMM:
 * Starting from the above equilibrated snapshot, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
 5. Run equilibrated structure on F@h
@@ -75,7 +75,7 @@ RCSB Structures:
 * Extract protease and save as separate PDB.
 3. Protonate and cap the protease using Schrodinger's Maestro
 4. Prepare system and equilibrate using OpenMM:
-* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 2amu hydrogens with simulate_6lu7_complex.py and simulate_6lu7_receptor.py
+* Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with simulate_6lu7_complex.py and simulate_6lu7_receptor.py
 4. Equilibrate at longer time step using OpenMM:
 * Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with simulate_4amu_5fs.py
 5. Run equilibrated structures on F@h

@@ -1,0 +1,99 @@
+HETATM    1  C1  PEP C 306     -10.425   3.420  72.447  1.00  0.00           C  
+HETATM    2  N1  PEP C 306     -10.585   4.861  74.114  1.00  0.00           N  
+HETATM    3  O1  PEP C 306     -10.048   3.755  74.575  1.00  0.00           O  
+HETATM    4  C2  PEP C 306      -9.924   2.857  73.642  1.00  0.00           C  
+HETATM    5  N2  PEP C 306     -12.583   6.625  72.374  1.00  0.00           N  
+HETATM    6  O2  PEP C 306     -11.062   5.943  70.793  1.00  0.00           O  
+HETATM    7  C3  PEP C 306      -9.345   1.458  73.806  1.00  0.00           C  
+HETATM    8  N3  PEP C 306     -11.943   9.281  69.911  1.00  0.00           N  
+HETATM    9  O3  PEP C 306     -11.466   9.159  72.125  1.00  0.00           O  
+HETATM   10  C4  PEP C 306     -10.848   4.738  72.810  1.00  0.00           C  
+HETATM   11  N4  PEP C 306     -11.452  12.859  70.085  1.00  0.00           N  
+HETATM   12  O4  PEP C 306     -12.381  11.617  68.328  1.00  0.00           O  
+HETATM   13  C5  PEP C 306     -11.475   5.798  71.891  1.00  0.00           C  
+HETATM   14  N5  PEP C 306     -11.238  11.571  63.275  1.00  0.00           N  
+HETATM   15  O5  PEP C 306     -10.411  14.570  68.131  1.00  0.00           O  
+HETATM   16  C6  PEP C 306     -13.166   7.625  71.495  1.00  0.00           C  
+HETATM   17  N6  PEP C 306     -12.524  14.987  67.260  1.00  0.00           N  
+HETATM   18  O6  PEP C 306     -13.440  12.730  63.491  1.00  0.00           O  
+HETATM   19  C7  PEP C 306     -12.115   8.750  71.241  1.00  0.00           C  
+HETATM   20  O7  PEP C 306     -10.354  17.731  67.451  1.00  0.00           O  
+HETATM   21  C8  PEP C 306     -14.397   8.218  72.132  1.00  0.00           C  
+HETATM   22  O8  PEP C 306      -8.840  17.782  65.766  1.00  0.00           O  
+HETATM   23  C9  PEP C 306     -10.955  10.336  69.666  1.00  0.00           C  
+HETATM   24  C10 PEP C 306     -11.663  11.606  69.273  1.00  0.00           C  
+HETATM   25  C11 PEP C 306     -10.004   9.895  68.515  1.00  0.00           C  
+HETATM   26  C12 PEP C 306      -9.130  11.086  68.012  1.00  0.00           C  
+HETATM   27  C13 PEP C 306      -9.116   8.687  68.955  1.00  0.00           C  
+HETATM   28  C14 PEP C 306     -12.124  14.096  69.716  1.00  0.00           C  
+HETATM   29  C15 PEP C 306     -11.582  14.561  68.334  1.00  0.00           C  
+HETATM   30  C16 PEP C 306     -11.825  15.155  70.765  1.00  0.00           C  
+HETATM   31  C17 PEP C 306     -13.001  15.397  71.764  1.00  0.00           C  
+HETATM   32  C18 PEP C 306     -13.834  14.100  72.019  1.00  0.00           C  
+HETATM   33  C19 PEP C 306     -12.487  15.982  73.082  1.00  0.00           C  
+HETATM   34  C20 PEP C 306     -11.993  15.425  65.951  1.00  0.00           C  
+HETATM   35  C21 PEP C 306     -12.499  16.817  65.647  1.00  0.00           C  
+HETATM   36  C22 PEP C 306     -11.365  17.802  65.289  1.00  0.00           C  
+HETATM   37  C23 PEP C 306     -10.167  17.764  66.278  1.00  0.00           C  
+HETATM   38  C24 PEP C 306     -12.456  14.464  64.858  1.00  0.00           C  
+HETATM   39  C25 PEP C 306     -11.827  13.003  65.048  1.00  0.00           C  
+HETATM   40  C26 PEP C 306     -10.215  13.041  64.725  1.00  0.00           C  
+HETATM   41  C27 PEP C 306      -9.925  12.061  63.836  1.00  0.00           C  
+HETATM   42  C28 PEP C 306     -12.383  12.148  64.256  1.00  0.00           C  
+HETATM   43  C29 PEP C 306      -7.830  17.582  66.759  1.00  0.00           C  
+HETATM   44  C30 PEP C 306      -5.739  18.930  67.322  1.00  0.00           C  
+HETATM   45  C31 PEP C 306      -5.067  20.138  67.502  1.00  0.00           C  
+HETATM   46  C32 PEP C 306      -5.744  21.347  67.320  1.00  0.00           C  
+HETATM   47  C33 PEP C 306      -7.085  21.339  66.961  1.00  0.00           C  
+HETATM   48  C34 PEP C 306      -7.760  20.134  66.778  1.00  0.00           C  
+HETATM   49  C35 PEP C 306      -7.082  18.927  66.959  1.00  0.00           C  
+CONECT    1    4   10
+CONECT    2    3   10
+CONECT    3    2    4
+CONECT    4    1    3    7
+CONECT    5   13   16
+CONECT    6   13
+CONECT    7    4
+CONECT    8   19   23
+CONECT    9   19
+CONECT   10    1    2   13
+CONECT   11   24   28
+CONECT   12   24
+CONECT   13    5    6   10
+CONECT   14   41   42
+CONECT   15   29
+CONECT   16    5   19   21
+CONECT   17   29   34
+CONECT   18   42
+CONECT   19    8    9   16
+CONECT   20   37
+CONECT   21   16
+CONECT   22   37   43
+CONECT   23    8   24   25
+CONECT   24   11   12   23
+CONECT   25   23   26   27
+CONECT   26   25
+CONECT   27   25
+CONECT   28   11   29   30
+CONECT   29   15   17   28
+CONECT   30   28   31
+CONECT   31   30   32   33
+CONECT   32   31
+CONECT   33   31
+CONECT   34   17   35   38
+CONECT   35   34   36
+CONECT   36   35   37
+CONECT   37   20   22   36
+CONECT   38   34   39
+CONECT   39   38   40   42
+CONECT   40   39   41
+CONECT   41   14   40
+CONECT   42   14   18   39
+CONECT   43   22   49
+CONECT   44   45   49
+CONECT   45   44   46
+CONECT   46   45   47
+CONECT   47   46   48
+CONECT   48   47   49
+CONECT   49   43   44   48
+END

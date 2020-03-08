@@ -1,5 +1,5 @@
 # coronavirus
-Simulations of SARS-CoV and SARS-CoV-2 protein-antibody complexes
+Simulations of SARS-CoV and SARS-CoV-2 complexes
 
 ## SARS-CoV and SARS-Cov-2 Spike protein receptor-binding domain:S230 antibody
 RCSB Structures: 

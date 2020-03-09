@@ -87,11 +87,6 @@ with open(output_prefix + solvated_pdb_filename, 'w') as outfile:
 print('Creating OpenMM System...')
 system = system_generator.create_system(modeller.topology)
 
-# Add a barostat
-print('Adding barostat...')
-barostat = openmm.MonteCarloBarostat(pressure, temperature)
-system.addForce(barostat)
-
 # Serialize and save the system to an xml file
 print("Seralizing the system to ", output_prefix + system_xml_filename)
 with open(output_prefix + system_xml_filename, 'w') as f:

@@ -62,7 +62,7 @@ with open('output/complex.pdb', 'w') as outfile:
 # Create system generator
 print("Setting up SystemGenerator for complex...")
 barostat = openmm.MonteCarloBarostat(pressure, temperature)
-forcefield_kwargs = {'removeCMMotion': False, 'ewaldErrorTolerance': 1e-04, 'nonbondedMethod': app.PME, 'constraints' : app.HBonds, 
+forcefield_kwargs = {'removeCMMotion': False, 'ewaldErrorTolerance': 5e-04, 'nonbondedMethod': app.PME, 'constraints' : app.HBonds, 
                      'hydrogenMass' : hydrogen_mass}
 system_generator = SystemGenerator(forcefields=ffxml_filenames, barostat=barostat, forcefield_kwargs=forcefield_kwargs, 
                                    molecules=[ligand], 

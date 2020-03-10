@@ -68,7 +68,7 @@ Directory:
 ### Using Cryo-EM structure of SARS-CoV-2 RBD
 RCSB Structures: 
 * 6ACG - Trypsin-cleaved and low pH-treated SARS-CoV spike glycoprotein and ACE2 complex, ACE2-bound conformation 1 (5.4 angstrom, Cryo-EM)
-* 6SVB - Prefusion 2019-nCoV spike glycoprotein with a single receptor-binding domain (RBD) up (3.46 angstrom, Cryo-EM)
+* 6VSB - Prefusion 2019-nCoV spike glycoprotein with a single receptor-binding domain (RBD) up (3.46 angstrom, Cryo-EM)
 
 0. Obtain model of 6VSB superposed onto 6ACG from SWISS-MODEL
 1. From this model, truncate the RBD from the spike protein:

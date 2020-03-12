@@ -3,19 +3,11 @@
 Homology models of the SARS-CoV-2 proteome from the [SWISS-MODEL](https://swissmodel.expasy.org/repository/species/2697049) Repository:
 
 
-### nsp1
+| System        | Setup           | Minimised  | Notes     |
+| ------------- |:---------------:|:----------:|:----------|
+| nsp1 .         | x | $1600 | .  |
 
-Setup &#x2611;
 
-Minimised &#x2611;
 
-### nsp2
 
-Setup &#x2611;
-
-Minimised
-
-### PL-PRO
-
-Setup &#x2611;
-Minimised
+Not setting up `nsp7` or `nsp8` in monomeric form, but will set up the biologically relevant hexadecamer.

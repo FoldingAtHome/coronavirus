@@ -6,11 +6,13 @@ Homology models of the SARS-CoV-2 proteome from the [SWISS-MODEL](https://swissm
 ### nsp1
 
 Setup &#x2611;
+
 Minimised &#x2611;
 
 ### nsp2
 
 Setup &#x2611;
+
 Minimised
 
 ### PL-PRO

@@ -33,7 +33,7 @@ integrator_xml_filename = 'integrator.xml'
 state_xml_filename = 'state.xml'
 
 # Read in the heavy atom model
-pdb_filename = 'input/03.pdb'
+pdb_filename = 'input/03_nolig.pdb'
 print('Loading %s' % pdb_filename)
 pdb = app.PDBFile(pdb_filename)
 

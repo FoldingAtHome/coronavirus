@@ -30,28 +30,7 @@ Links to Folding@home generated datasets will be posted here as soon as the inco
 * [Rafal Wiewiora](https://www.mskcc.org/research/ski/labs/members/rafal-wiewiora) (Tri-Institutional Graduate Program in Chemical Biology)
 * Ivy Zhang (Computational Biology and Medicine Graduate Program)
 
-# Input files for simulations initiated on Folding@home
-
-Note that these input files were rapidly prepared using available tools in order to get simulations running immediately. These files are not meant to be indicative of state-of-the-art modeling pipelines.
-
-## Projects
-
-SARS-CoV and SARS-CoV-2 are very similar viruses, so we are using the available structural data from SARS-CoV (both separate simulations and homology-derived models) to aid in understanding of potential SARS-CoV-2 drug targets.
-
-Note: The directory name (located in system_preparation/) for each structure is listed in parentheses in italics
-
-Apo structures:
-- SARS-CoV Spike protein receptor-binding domain *(2ajf_sars_rbd)*
-- SARS-CoV-2 Spike protein receptor-binding domain *(6vsb_rbd)*
-- SARS-CoV main protease (3CL-PRO) *(2z9j)*
-- SARS-CoV-2 main protease (3CL-PRO) *(6lu7_receptor)*
-- SARS-CoV papain-like protease (PL-PRO) *(3e9s)*
-
-Complex structures:
-- SARS-CoV Spike protein receptor-binding domain:S230 antibody *(6nb8_2ghv_sars)*
-- SARS-CoV-2 Spike protein receptor-binding domain:S230 antibody *(6nb8_2ghv_sars)*
-- SARS-CoV-2 Spike protein receptor-binding domain:ACE2 *(2ajf_sars-2, 6acg_6vsb, 6m17)*
-- SARS-CoV-2 main protease:peptide-like inhibitor *(6lu7_complex)*
-
-SWISS-MODELS: (https://swissmodel.expasy.org/repository/species/2697049)
-*COMING SOON*
+# Workflow
+1. Prepare input files for simulations on Folding@home *(Available in system_preparation/)*
+2. Run simulations *(IN PROGRESS)*
+3. Analyze simulations *(COMING SOON)*

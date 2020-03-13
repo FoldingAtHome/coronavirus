@@ -8,12 +8,13 @@
 ### Capped structures
 1. Prepare initial structures using PyMOL manually:
     - Extract RBD from 2GHV, truncate 6NB7 to include only RBD and variable domain of S230 antibody, truncate 6NB8 to only include variable domain of S230 antibody.
-2. Generate homology model using SWISS-MODEL of 2GHV SARS-CoV to SARS-CoV-2 RBD
+2. Load 6NB8 into OpenMM PDBFile and write it back out to remove alternate positions.
+3. Generate homology model using SWISS-MODEL of 2GHV SARS-CoV to SARS-CoV-2 RBD
     - Used previouly extracted structure above as template sturcture and `SARS-CoV-2_rbd.fasta` has target sequence
-3. Replace low resolution structures with high resolution structures using Chimera:
+4. Replace low resolution structures with high resolution structures using Chimera:
     - Load 6NB7, 6NB8, 2GHV (homology modeled to SARS-CoV-2 RBD) into Chimera. Use Tools > Structure Comparison > MatchMaker to align 2GHV to the RBD of 6NB7 and 6NB8 to the antibody of 6NB7. Delete 6NB7 stucture and save model.
-4. Protonate and cap using Schrodinger's Maestro
-5. Prepare system and equilibrate using OpenMM:
+5. Protonate and cap using Schrodinger's Maestro
+6. Prepare system and equilibrate using OpenMM:
     - Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_6nb8_2ghv.py`
-6. Equilibrate at longer time step using OpenMM:
+7. Equilibrate at longer time step using OpenMM:
     - Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with `simulate_4amu_4fs.py`

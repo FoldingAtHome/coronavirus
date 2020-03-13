@@ -7,6 +7,6 @@
 1. Extract RBD from `6acg_6vsb/input/model_truncated.pdb` using `keep_rbd.py`
 2. Protonate and cap using Schrodinger's Maestro
 3. Prepare system and equilibrate using OpenMM:
-    - Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_2ajf_sars-2.py`
+    - Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_6vsb_rbd.py`
 4. Equilibrate at longer time step using OpenMM:
     - Starting from the above equilibrated snapshot, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with `simulate_4amu_4fs.py`

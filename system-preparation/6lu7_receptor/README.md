@@ -1,4 +1,4 @@
-## SARS-CoV-2 main protease:peptide inhibitor
+## SARS-CoV-2 main protease (3CL-PRO)
 
 ### Source structures from the [protein databank](http://rcsb.org): 
 * 6LU7 - SARS-CoV-2 main protease in complex with an inhibitor N3 (2.16 angstrom, X-ray diffraction)

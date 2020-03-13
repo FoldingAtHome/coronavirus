@@ -7,6 +7,13 @@ You can follow along with news updates on the [Folding@home blog](https://foldin
 
 More information on this project can be found on [this Folding@home news post](https://foldingathome.org/2020/03/10/covid19-update/).
 
+## How to contribute
+
+You can help out by [downloading the Folding@home client](https://foldingathome.org/start-folding/) to your computer, installing it, and selecting "Any disease" from the Web Control panel:
+![Select Any Disease from the Web Control panel](https://overclock3d.net/gfx/articles/2020/03/03170309170l.jpg "Web Control panel")
+We're especially in need of more donors with GPUs to help out, and all our GPU projects are devoted to potential drug targets for COVID-19 right now.
+For more information about Folding@home, check out http://foldingathome.org
+
 ## Datasets
 
 Links to Folding@home generated datasets will be posted here as soon as the incoming data is batch-processed.

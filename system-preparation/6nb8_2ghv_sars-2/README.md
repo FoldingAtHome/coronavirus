@@ -1,4 +1,4 @@
-## SARS-CoV and SARS-CoV-2 Spike protein receptor-binding domain:S230 antibody
+## SARS-CoV-2 Spike protein receptor-binding domain:S230 antibody
 
 ### Source structures from the [protein databank](http://rcsb.org): 
 * 6NB7 - SARS-CoV complex with human neutralizing S230 antibody Fab fragment (state 2) (4.5 angstrom, Cryo-EM)

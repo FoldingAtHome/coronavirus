@@ -9,6 +9,6 @@
 2. From this model, truncate the RBD from the spike protein using `truncate_6acg_6vsb.py`
 3. Protonate and cap the protease using Schrodinger's Maestro
 4. Prepare system and equilibrate using OpenMM:
-    - Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_6acg_6vsb.py`
+    - Solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_6acg_6vsb.py`
 5. Equilibrate at longer time step using OpenMM:
     - Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with `simulate_4amu_4fs.py`

@@ -15,6 +15,6 @@
     - Load 6NB7, 6NB8, 2GHV (homology modeled to SARS-CoV-2 RBD) into Chimera. Use Tools > Structure Comparison > MatchMaker to align 2GHV to the RBD of 6NB7 and 6NB8 to the antibody of 6NB7. Delete 6NB7 stucture and save model.
 5. Protonate and cap using Schrodinger's Maestro
 6. Prepare system and equilibrate using OpenMM:
-    - Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_6nb8_2ghv.py`
+    - Solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_6nb8_2ghv.py`
 7. Equilibrate at longer time step using OpenMM:
     - Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with `simulate_4amu_4fs.py`

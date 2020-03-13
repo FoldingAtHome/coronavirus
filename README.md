@@ -31,6 +31,6 @@ Links to Folding@home generated datasets will be posted here as soon as the inco
 * Ivy Zhang (Computational Biology and Medicine Graduate Program)
 
 # Workflow
-1. Prepare input files for simulations on Folding@home *(Available in system_preparation/)*
+1. Prepare input files for simulations on Folding@home (Available in `system_preparation/`)
 2. Run simulations *(IN PROGRESS)*
 3. Analyze simulations *(COMING SOON)*

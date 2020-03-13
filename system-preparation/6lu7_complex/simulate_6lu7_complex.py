@@ -42,10 +42,6 @@ ligand = Molecule.from_file('input/6lu7_inhibitor.pdb') # will bond by distance
 ligand.to_file('input/6lu7_inhibitor_protonated.sdf', file_format='sdf')
 ligand.to_file('input/6lu7_inhibitor_protonated.pdb', file_format='pdb')
 
-# Read in protein receptor
-print("Loading protein...")
-receptor = app.PDBFile("input/6lu7_receptor.pdb")
-
 # Merge receptor and ligand topology and positions using ParmEd
 print("Merging protein and ligand topology and positions...")
 receptor_structure = parmed.load_file('input/6lu7_receptor.pdb')
@@ -54,10 +50,6 @@ complex_structure = receptor_structure + ligand_structure
 
 complex_topology = complex_structure.topology
 complex_positions = complex_structure.positions
-
-# Write out PDB file
-with open('output/complex.pdb', 'w') as outfile:
-    app.PDBFile.writeFile(complex_topology, complex_positions, outfile)
 
 # Create system generator
 print("Setting up SystemGenerator for complex...")

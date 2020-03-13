@@ -5,7 +5,7 @@
 * 6NB8 - anti- SARS-CoV human neutralizing S230 antibody Fab fragment (1.5 angstrom, X-ray diffraction)
 * 2GHV - SARS spike protein receptor binding domain (RBD) (2.2 angstrom, X-ray diffraction)
 
-### Capped structures
+### Folding@home input file preparation
 1. Prepare initial structures using PyMOL manually:
     - Extract RBD from 2GHV, truncate 6NB7 to include only RBD and variable domain of S230 antibody, truncate 6NB8 to only include variable domain of S230 antibody.
 2. Load 6NB8 into OpenMM PDBFile and write it back out to remove alternate positions.

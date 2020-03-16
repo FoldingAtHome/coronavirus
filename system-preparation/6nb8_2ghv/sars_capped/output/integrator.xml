@@ -1,2 +1,0 @@
-<?xml version="1.0" ?>
-<Integrator constraintTolerance="1e-05" friction="91" randomSeed="0" stepSize=".002" temperature="310" type="LangevinIntegrator" version="1"/>

@@ -7,7 +7,7 @@
 1. Prepare initial structures using PyMOL manually:
     - Extract RBD from 2AJF
 2. Build in missing loops by generating homology model using SWISS-MODEL of 2AJF SARS-CoV to itself
-    - Used previouly extracted structure above as template sturcture and `2ajf_rbd.fasta` as target sequence
+    - Used previouly extracted structure above as template structure and `2ajf_rbd.fasta` as target sequence
 3. Protonate and cap using Schrodinger's Maestro
 4. Prepare system and equilibrate using OpenMM:
     - Solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with `simulate_2ajf_sars_rbd.py`

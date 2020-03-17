@@ -9,7 +9,7 @@ Please follow the `README_template.md` structure for each article added.
 
 ## **Current Articles**
 | **Article Title**   | "Dibbs"  |
-|---|---|
+|:---|:---:|
 | Following the rule: formation of the 6-helix bundle of the fusion core from severe acute respiratory syndrome coronavirus spike protein and identification of potent peptide inhibitors   | Hannah  |
 | Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2   |   |
 | Nonstructural Proteins 7 and 8 of Feline Coronavirus Form a 2:1 Heterotrimer That Exhibits Primer-Independent RNA Polymerase Activity  |   |

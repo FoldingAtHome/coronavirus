@@ -1,7 +1,7 @@
 Enclosed is essentially an extended annotated bibliography. Each article read on SARS or SARS-2 will have it's own folder that will include:
 1. a PDF copy of the article
 2. a `README.md` that includes
-   * The proper citation of the article
+   * The proper citation of the article (DOI)
    * a BRIEF summary of the article
    * all additional notes taken from the article
 
@@ -9,8 +9,8 @@ Please follow the `README_template.md` structure for each article added.
 
 ## **Current Articles**
 | **Article Title**   | "Dibbs"  |
-|:---|:---|
-| Following the rule: formation of the 6-helix bundle of the fusion core from severe acute respiratory syndrome coronavirus spike protein and identification of potent peptide inhibitors   |   |
+|:---|:---:|
+| Following the rule: formation of the 6-helix bundle of the fusion core from severe acute respiratory syndrome coronavirus spike protein and identification of potent peptide inhibitors   | Hannah  |
 | Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2   |   |
 | Nonstructural Proteins 7 and 8 of Feline Coronavirus Form a 2:1 Heterotrimer That Exhibits Primer-Independent RNA Polymerase Activity  |   |
 | Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 domain in spike protein  |   |
@@ -19,7 +19,7 @@ Please follow the `README_template.md` structure for each article added.
 | Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro   |   |
 | Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion  |   |
 | Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein  |   |
-| The SARS-coronavirus nsp7+nsp8 complex is a unique multimeric RNA polymerase capable of both de novo initiation and primer extension  |   |
+| The SARS-coronavirus nsp7+nsp8 complex is a unique multimeric RNA polymerase capable of both de novo initiation and primer extension  |  |
 | Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2   |   |
 | Severe acute respiratory syndrome coronavirus papain-like protease: Structure of a viral deubiquitinating enzyme   |   |
 | SARS-CoV 3CL protease cleaves its C-terminal autoprocessing site by novel subsite cooperativity   |   |

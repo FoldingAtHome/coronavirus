@@ -48,6 +48,7 @@ Links to Folding@home generated datasets will be posted here as soon as the inco
 * Vincent Voelz (Temple University)
 * [Rafal Wiewiora](https://www.mskcc.org/research/ski/labs/members/rafal-wiewiora) (Tri-Institutional Graduate Program in Chemical Biology)
 * Ivy Zhang (Computational Biology and Medicine Graduate Program)
+* Mick Ward (Washington University in St. Louis)
 
 # Workflow
 1. Prepare input files for simulations on Folding@home (Available in `system_preparation/`)

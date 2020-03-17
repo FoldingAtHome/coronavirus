@@ -34,3 +34,4 @@ Please follow the `README_template.md` structure for each article added.
 | Structure of the Fusion Core and Inhibition of Fusion by a Heptad Repeat Peptide Derived from the S Protein of Middle East Respiratory Syndrome Coronavirus   |   |
 | Fusion core structure of the severe acute respiratory syndrome coronavirus (SARS-CoV): In search of potent SARS-CoV entry inhibitors   |   |
 | The SARS-Coronavirus papain-like protease: Structure, function and inhibition by designed antiviral compounds   |   |
+| Coronaviruses: An Overview of Their Replication and Pathogenesis   |Jiaye|

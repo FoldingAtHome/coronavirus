@@ -17,9 +17,9 @@ Apo structures:
 - SARS-CoV-2 main protease (3CL-PRO) (`6lu7_receptor`)
 - SARS-CoV papain-like protease (PL-PRO) (`3e9s`)
 - SARS-CoV-2 NSP15 endoribonuclease HEXAMER (`6vww`)
-- SARS-CoV-2 main protease DIMER (3CL-PRO) (`6y2g`)
-- SARS-CoV-2 NSP9 (`swiss model 01`) 
-- SARS-CoV NSP9 (`1qz8`)
+- SARS-CoV main protease DIMER (3CL-PRO) (`6y2g`)
+- SARS-CoV-2 NSP9 DIMER (`swiss model 01`) 
+- SARS-CoV NSP9 DIMER (`1qz8`)
 - SARS-CoV-2 NSP12 (RNA-Dependent RNA polymerase) (`swiss model 01`)
 
 Complex structures:

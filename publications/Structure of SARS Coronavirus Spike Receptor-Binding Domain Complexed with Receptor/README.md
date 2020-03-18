@@ -37,10 +37,10 @@ Li, F. Structure of SARS Coronavirus Spike Receptor-Binding Domain Complexed wit
     -   Extended Loop
         -   presents a gently concave outer surface formed by 2 beta sheets (B5 and B6)
         -   Base is concave and cradles the N-terminal helix of ACE2
-            -   Has a ridge on side that is reinforced by Cys467--Cys474 disulfide bridge --> contacts between ACE2 helices a2 and a3
+            -   Has a ridge on side that is reinforced by Cys467--Cys474 disulfide bridge → contacts between ACE2 helices a2 and a3
             -   other side ridge inserts between a short ACE2 residues 329 to 333 helix and a beta hairpin at ACE2 353 residue
     -   Residues 445 to 460 of RBD ANCHOR the entire receptor binding loop to the core of the RBD
-    -   **Receptor Binding Motif (RBM):** residues 424 to 494 --> loop of residues that make all contacts with ACE2
+    -   **Receptor Binding Motif (RBM):** residues 424 to 494 → loop of residues that make all contacts with ACE2
         -   complementary to the receptor tip (total of 18 residues of the receptor contact 14 residues of the viral spike protein)
 
 **Experimental RBD Protein : ACE2 Complex Generation**

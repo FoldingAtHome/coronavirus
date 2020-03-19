@@ -26,6 +26,14 @@ We need to keep the GitHub issue tracker clear for scientific collaborators to d
 
 Thanks so much for your help as we deal with the very large influx of interest!
 
+## License
+
+All scripts, datasets, and documentation are [permissively and openly licensed](LICENSE.md) consistent with Victoria Stodden's [Reproducible Research Standard](https://web.stanford.edu/~vcs/talks/VictoriaStoddenCommuniaJune2009-2.pdf) to ensure that they can be maximally reused, modified, and redistributed.
+
+* All **media components** (text, figures, etc.) are licensed under the [Attribution International (CC BY) 4.0 License](https://creativecommons.org/licenses/by/4.0/)
+* All **code** is licensed under the permissive open source [MIT License](https://opensource.org/licenses/MIT)
+* All **datasets** are licensed under the [Creative Commons CC0 License](https://creativecommons.org/share-your-work/public-domain/cc0/)
+
 ## Datasets
 
 Links to Folding@home generated datasets will be posted here as soon as the incoming data is batch-processed.

@@ -16,7 +16,7 @@ Please follow the `README_template.md` structure for each article added.
 | Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 domain in spike protein  |   |
 | Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) Originating in China   |   |
 | Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation  |   |
-| Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro   |   |
+| Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro   |Binisha   |
 | Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion  |   |
 | Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein  |   |
 | The SARS-coronavirus nsp7+nsp8 complex is a unique multimeric RNA polymerase capable of both de novo initiation and primer extension  |  |

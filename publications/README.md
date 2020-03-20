@@ -35,3 +35,4 @@ Please follow the `README_template.md` structure for each article added.
 | Fusion core structure of the severe acute respiratory syndrome coronavirus (SARS-CoV): In search of potent SARS-CoV entry inhibitors   |   |
 | The SARS-Coronavirus papain-like protease: Structure, function and inhibition by designed antiviral compounds   |   |
 | Coronaviruses: An Overview of Their Replication and Pathogenesis   |Jiaye|
+| X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of α-Ketoamide Inhibitors| Alex|

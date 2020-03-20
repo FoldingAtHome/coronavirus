@@ -1,7 +1,7 @@
 Enclosed is essentially an extended annotated bibliography. Each article read on SARS or SARS-2 will have it's own folder that will include:
 1. a PDF copy of the article
 2. a `README.md` that includes
-   * The proper citation of the article (DOI)
+   * The proper citation of the article (DOI) - note if pre-print or not.
    * a BRIEF summary of the article
    * all additional notes taken from the article
 
@@ -16,7 +16,7 @@ Please follow the `README_template.md` structure for each article added.
 | Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 domain in spike protein  |   |
 | Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) Originating in China   |   |
 | Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation  |   |
-| Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro   |   |
+| Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro   |Binisha   |
 | Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion  |   |
 | Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein  |   |
 | The SARS-coronavirus nsp7+nsp8 complex is a unique multimeric RNA polymerase capable of both de novo initiation and primer extension  |  |
@@ -34,3 +34,4 @@ Please follow the `README_template.md` structure for each article added.
 | Structure of the Fusion Core and Inhibition of Fusion by a Heptad Repeat Peptide Derived from the S Protein of Middle East Respiratory Syndrome Coronavirus   |   |
 | Fusion core structure of the severe acute respiratory syndrome coronavirus (SARS-CoV): In search of potent SARS-CoV entry inhibitors   |   |
 | The SARS-Coronavirus papain-like protease: Structure, function and inhibition by designed antiviral compounds   |   |
+| Coronaviruses: An Overview of Their Replication and Pathogenesis   |Jiaye|

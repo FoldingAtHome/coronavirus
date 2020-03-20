@@ -30,7 +30,7 @@ Please follow the `README_template.md` structure for each article added.
 | Structural basis of influenza virus fusion inhibition by the antiviral drug Arbidol   |   |
 | Development of PLpro and 3CLpro Protease Inhibitors as Novel SARS Therapeutics   |   |
 | Structural basis of neutralization by a human anti-severe acute respiratory syndrome spike protein antibody, 80R   |   |
-| SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor   |   |
+| SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor   | Alex |
 | Structure of the Fusion Core and Inhibition of Fusion by a Heptad Repeat Peptide Derived from the S Protein of Middle East Respiratory Syndrome Coronavirus   |   |
 | Fusion core structure of the severe acute respiratory syndrome coronavirus (SARS-CoV): In search of potent SARS-CoV entry inhibitors   |   |
 | The SARS-Coronavirus papain-like protease: Structure, function and inhibition by designed antiviral compounds   |   |

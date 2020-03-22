@@ -7,7 +7,7 @@ Zhang, L., Lin, D., Sun, X., Rox, K. & Hilgenfeld, R. *X-ray Structure of Main P
 
 # **Additional Notes**
 **Intro**
-* Follows from this work: α-Ketoamides as Broad-Spectrum Inhibitors of Coronavirus and Enterovirus Replication: Structure-Based Design, Synthesis, and Activity Assessment
+* Follows from this work: α-Ketoamides as Broad-Spectrum Inhibitors of Coronavirus and Enterovirus Replication: Structure-Based Design, Synthesis, and Activity Assessment (https://doi.org/10.1021/acs.jmedchem.9b01828)
 * Apo crystal structure of 3CL-PRO at 1.75 Å (6Y2E) used to guide optimization of a series of alpha-ketoamide inhibitors
 * Goal was to improve pharmacokinetic properties of the compounds
 * 1.95 and 2.20 Å crystal structures (6Y2F, 6Y2G) with the most potent alpha-ketoamide (**13b**)

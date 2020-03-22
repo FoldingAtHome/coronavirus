@@ -2,8 +2,9 @@
 Zhang, L., Lin, D., Sun, X., Rox, K. & Hilgenfeld, R. *X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of α-Ketoamide Inhibitors*. http://biorxiv.org/lookup/doi/10.1101/2020.02.17.952879 (2020) doi:10.1101/2020.02.17.952879
 
 # **Summary of Article**
-* Structure-based drug design of alpha-ketoamide inhibitor of SARS-CoV-2 3CL-PRO (**13b**), using 1.75 Å apo crystal structure of 3CL-PRO (6Y2E) and **13b**-bound monomer 1.95 Å (6Y2F), and **13b**-bound dimer 2.20 Å (6Y2G)
+* Structure-based drug design of alpha-ketoamide inhibitor of SARS-CoV-2 3CL-PRO (**13b**)
 * Improves pharmacokinetics of previously designed inhibitor of coronaviruses and  enteroviruses (**11b**) using mouse models and microsomes (no data shown)
+* 1.75 Å apo crystal structure of 3CL-PRO (6Y2E) and **13b**-bound monomer 1.95 Å (6Y2F), and **13b**-bound dimer 2.20 Å (6Y2G)
 
 # **Additional Notes**
 **Intro**

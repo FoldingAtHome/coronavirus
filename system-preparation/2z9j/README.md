@@ -4,7 +4,7 @@
 * 2Z9J - Complex structure of SARS-CoV 3C-like protease with EPDTC (1.95 angstrom, X-ray diffraction)
 
 ### Folding@home input file preparation 
-1. Remove undesired ions and chains using pdbfixer (`clean_2z9j.py')
+1. Remove undesired ions and chains using pdbfixer (`clean_2z9j.py`)
 2. Protonate and cap using Schrodinger's Maestro.
     - Minimized hydrogens with default settings
     - Ran H-bond assignment optimization with default settings

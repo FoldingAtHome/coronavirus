@@ -2,8 +2,10 @@
 Li, F. Structure of SARS Coronavirus Spike Receptor-Binding Domain Complexed with Receptor. *Science* **309**, 1864--1868 (2005).
 
 # **Summary of Article**
-* Include 2-3 bullet points on the summary of the article
-* _What were the main take aways?_
+*  Large Spike Protein on virion surface → mediates cell attachment/membrane fusion
+*  Residues 318 to 510: **Receptor Binding Domain** → Contains 2 subdomains: **Core and extended Loop**
+    - **Receptor Binding Motif (RBM):** residues 424 to 494 → loop of residues that make all contacts with ACE2
+
 
 # **Additional Notes**
 **Coronaviruses: Overview**
@@ -27,6 +29,8 @@ Li, F. Structure of SARS Coronavirus Spike Receptor-Binding Domain Complexed wit
     -   critical for virus-receptor interaction
 -   Changes in few aa residues can lead to cross-species **transimssion**
 -   **include viral-neutralizing epitopes** (may be able to create Ab)
+    - Neutralizing antibodies against SARS-CoV recognize epitopes in the RBD
+        - high-affinity recombinant human monoclonal antibody, 80R, which is sensitive to mutation within the RBM, inhibits viral entry by blocking association of virus and receptor
 -   Contains 2 subdomains: **Core and extended Loop**
     -   Core
         -   5 anti-parallel Beta Sheets with 3 short connecting alpha helices
@@ -42,6 +46,18 @@ Li, F. Structure of SARS Coronavirus Spike Receptor-Binding Domain Complexed wit
     -   Residues 445 to 460 of RBD ANCHOR the entire receptor binding loop to the core of the RBD
     -   **Receptor Binding Motif (RBM):** residues 424 to 494 → loop of residues that make all contacts with ACE2
         -   complementary to the receptor tip (total of 18 residues of the receptor contact 14 residues of the viral spike protein)
+        -   RBM surface is complementary to the receptor tip, with about 1700 Å^2 of buried surface at the interface
+            - RBM is particularly tyrosine-rich (and 6 tyrosines contact ACE2)
+    - Presence of lysine at 479 and serine at 487 reduce affinity for human ACE2
+
+**Potential Drug Targets**
+-  Position 487 of Spike Protein: replacing **threonine (SARS-CoV)** with **serine**
+    - leave a hard-to- fill van der Waals hole → decreases affinity for human ACE2 by more than 20-fold
+      - plausible that the severity of infection and human-to-human interaction is due to the presense/absence of a  g-methyl group on the 487 side chain
+- loop from 376 to 381 could probably be shortened and the disordered
+    - cysteines removed/ other disulfides could be introduced to add stability/C-terminal segment could be used to link the RBD to an oligomeric core
+- Glycosylation is unlikely to interfere with potential neutralizing epitopes within the RBD
+    -  introduction of new glycosylation sites could in principle focus the antigenicity of a candidate immunogen
 
 **Experimental RBD Protein : ACE2 Complex Generation**
 -   Expressed SARS-CoV Spike protein RBD (residues 306 to 575) in Sf9 cells

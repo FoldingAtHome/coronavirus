@@ -35,4 +35,8 @@ Please follow the `README_template.md` structure for each article added.
 | Fusion core structure of the severe acute respiratory syndrome coronavirus (SARS-CoV): In search of potent SARS-CoV entry inhibitors   |   | |
 | The SARS-Coronavirus papain-like protease: Structure, function and inhibition by designed antiviral compounds   | Chiara | |
 | Coronaviruses: An Overview of Their Replication and Pathogenesis   |Jiaye| |
-| X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of α-Ketoamide Inhibitors| Alex| |
+| X-ray Structure of Main Protease of the Novel Coronavirus SARS-CoV-2 Enables Design of α-Ketoamide Inhibitors| Alex| 3CL-PRO Inhibitors |
+| alpha-Ketoamides as Broad-Spectrum Inhibitors of Coronavirus and Enterovirus Replication: Structure-Based Design, Synthesis, and Activity Assessment |   | 3CL-PRO Inhibitors |
+| A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing|   | Big Picture, Systems Biology |
+| Identification of SARS-CoV-2 Cell Entry Inhibitors by Drug Repurposing Using in Silico Structure-Based Virtual Screening Approach  |   | Computational Drug Design, Virus Entry Inhibitors |
+|   |   |   |

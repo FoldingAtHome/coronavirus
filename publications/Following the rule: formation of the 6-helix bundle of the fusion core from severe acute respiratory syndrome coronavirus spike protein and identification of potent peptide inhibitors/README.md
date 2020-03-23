@@ -1,7 +1,7 @@
 # **Following the rule: formation of the 6-helix bundle of the fusion core from severe acute respiratory syndrome coronavirus spike protein and identification of potent peptide inhibitors**
 Zhu, Jieqing, et al. “Following the rule: formation of the 6-helix bundle of the fusion core from severe acute respiratory syndrome coronavirus spike protein and identification of potent peptide inhibitors.” *Biochemical and biophysical research communications* 319.1 (2004): 283-288.
 
-(https://doi.org/10.1016/j.bbrc.2004.04.141)[https://doi.org/10.1016/j.bbrc.2004.04.141]
+[https://doi.org/10.1016/j.bbrc.2004.04.141](https://doi.org/10.1016/j.bbrc.2004.04.141)
 
 # **Summary of Article**
 There are two alpha helices (HR1 and HR2) of the SARS-CoV spike protein that form a coiled coil that’s important for virus entering the cell. This can be inhibited using HR2 peptide mimetics, but nor HR1.

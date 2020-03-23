@@ -13,7 +13,7 @@ Please follow the `README_template.md` structure for each article added.
 | Following the rule: formation of the 6-helix bundle of the fusion core from severe acute respiratory syndrome coronavirus spike protein and identification of potent peptide inhibitors   | Hannah  |
 | Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2   |  Henri |
 | Nonstructural Proteins 7 and 8 of Feline Coronavirus Form a 2:1 Heterotrimer That Exhibits Primer-Independent RNA Polymerase Activity  |   |
-| Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 domain in spike protein  |   |
+| Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 domain in spike protein  | Hannah |
 | Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) Originating in China   |   |
 | Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation  |   |
 | Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro   |Binisha   |

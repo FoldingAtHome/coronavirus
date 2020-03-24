@@ -4,7 +4,7 @@ Note that these input files were rapidly prepared using available tools in order
 
 ## Projects
 
-SARS-CoV and SARS-CoV-2 are very similar viruses, so we are using the available structural data from both viruses (both separate simulations and homology-derived models) to aid in finding potential SARS-CoV-2 drug targets, as well as, understanding why SARS-CoV-2 is fundamentally different from SARS-CoV.
+SARS-CoV and SARS-CoV-2 are very similar viruses, so we are using the available structural data from both viruses (both separate simulations and homology-derived models) to aid in finding druggable sites on SARS-CoV-2 proteins, as well as, understanding why SARS-CoV-2 is fundamentally different from SARS-CoV.
 
 Note: The directory name (located in `system_preparation`) for each structure is listed in parentheses.
 Each directory contains an `input` subdirectory, containing input files for the scripts in the directory, and an `output` 
@@ -18,7 +18,8 @@ Apo structures:
 - SARS-CoV papain-like protease (PL-PRO) (`3e9s`)
 - SARS-CoV-2 NSP15 endoribonuclease HEXAMER (`6vww`)
 - SARS-CoV NSP15 endoribonuclease HEXAMER (`2H85`)
-- SARS-CoV-2 main protease DIMER (3CL-PRO) (`6Y2G`)
+- SARS-CoV-2 main protease DIMER (3CL-PRO) (`6Y2E`)
+- SARS-CoV-2 main protease MONOMER (3CL-PRO) (`6Y2E`)
 - SARS-CoV main protease DIMER (3CL-PRO) (`3VB3`)
 - SARS-CoV-2 NSP9 DIMER (`swiss model 01 - 1qz8 homolog`) 
 - SARS-CoV NSP9 DIMER (`1qz8`)
@@ -27,7 +28,8 @@ Apo structures:
 - SARS-CoV Nucleocapsid protein (N) (`2ofz`)
 - SARS-CoV-2 NSP3 (MAC1-MAC2 domain) (`6w02`)
 - SARS-CoV NSP3 (MAC1-MAC2 domain) (`2fav`)
-
+- SARS-CoV-2 NSP10 ('6W4H')
+- SARS-CoV-2 NSP13 ('swiss model 01 - 6jyt homolog')
 
 Complex structures:
 - SARS-CoV Spike protein receptor-binding domain:S230 antibody (`6nb8_2ghv_sars`)

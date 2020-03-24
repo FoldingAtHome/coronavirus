@@ -41,3 +41,5 @@ Please follow the `README_template.md` structure for each article added.
 | Identification of SARS-CoV-2 Cell Entry Inhibitors by Drug Repurposing Using in Silico Structure-Based Virtual Screening Approach  |   | Computational Drug Design, Virus Entry Inhibitors |
 | Repurposing Therapeutics for COVID-19: Supercomputer-Based Docking to the SARS-CoV-2 Viral Spike Protein and Viral Spike Protein-Human ACE2 Interface   |   | Computational Drug Design, Virus Entry Inhibitors |
 | Mesoscale All-Atom Influenza Virus Simulations Suggest New Substrate Binding Mechanism |   | Computational Drug Design, Influenza |
+| Structure of Mpro from COVID-19 Virus and Discovery of Its Inhibitors   |   | Drug Discovery, 3CL-PRO Structure, Inhibitors  |
+|   |   |   |

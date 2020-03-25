@@ -23,7 +23,7 @@ Please follow the `README_template.md` structure for each article added.
 | Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2   |   | Spike Protein Receptor Biology, Structure |
 | Severe acute respiratory syndrome coronavirus papain-like protease: Structure of a viral deubiquitinating enzyme   |   | PL-PRO Biology, Structure |
 | SARS-CoV 3CL protease cleaves its C-terminal autoprocessing site by novel subsite cooperativity   |   | 3CL-PRO Biology |
-| Research and Development on Therapeutic Agents and Vaccines for COVID-19 and Related Human Coronavirus Diseases   |   | Big Picture, Drug Design, Vaccines, Antibodies |
+| Research and Development on Therapeutic Agents and Vaccines for COVID-19 and Related Human Coronavirus Diseases   | Jiaye | Big Picture, Drug Design, Vaccines, Antibodies |
 | Structure of SARS Coronavirus Spike Receptor-Binding Domain Complexed with Receptor   | Erica  | Spike Protein Biology, Structure |
 | Maturation mechanism of severe acute respiratory syndrome (SARS) coronavirus 3C-like proteinase   |   | 3CL-PRO Biology |
 | Structural basis of mercury- and zinc-conjugated complexes as SARS-CoV 3C-like protease inhibitors  |   | 3CL-PRO Inhibitors |

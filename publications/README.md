@@ -13,11 +13,11 @@ Please follow the `README_template.md` structure for each article added.
 | Following the rule: formation of the 6-helix bundle of the fusion core from severe acute respiratory syndrome coronavirus spike protein and identification of potent peptide inhibitors   | Hannah  | Fusion Inhibitors |
 | Structural basis for the recognition of the SARS-CoV-2 by full-length human ACE2   |  Henri | Spike Receptor Binding |
 | Nonstructural Proteins 7 and 8 of Feline Coronavirus Form a 2:1 Heterotrimer That Exhibits Primer-Independent RNA Polymerase Activity  |   | nsp7/nsp8 heterocomplex biology |
-| Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 domain in spike protein  | Hannah | Fusion inhibitors |
+| Fusion mechanism of 2019-nCoV and fusion inhibitors targeting HR1 domain in spike protein  | Alex | Fusion inhibitors |
 | Genome Composition and Divergence of the Novel Coronavirus (2019-nCoV) Originating in China   | Binisha | Viral Biology |
 | Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation  | Erica   | Spike Protein Structure |
 | Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro   |Binisha   | Drug Design |
-| Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion  |   | Fusion mechanism |
+| Unexpected Receptor Functional Mimicry Elucidates Activation of Coronavirus Fusion  | Alex  | Fusion mechanism |
 | Structure, Function, and Antigenicity of the SARS-CoV-2 Spike Glycoprotein  |   | Spike Protein Biology |
 | The SARS-coronavirus nsp7+nsp8 complex is a unique multimeric RNA polymerase capable of both de novo initiation and primer extension  |  | nsp7/nsp8 heterocomplex biology |
 | Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2   |   | Spike Protein Receptor Biology, Structure |
@@ -27,7 +27,7 @@ Please follow the `README_template.md` structure for each article added.
 | Structure of SARS Coronavirus Spike Receptor-Binding Domain Complexed with Receptor   | Erica  | Spike Protein Biology, Structure |
 | Maturation mechanism of severe acute respiratory syndrome (SARS) coronavirus 3C-like proteinase   |   | 3CL-PRO Biology |
 | Structural basis of mercury- and zinc-conjugated complexes as SARS-CoV 3C-like protease inhibitors  |   | 3CL-PRO Inhibitors |
-| Structural basis of influenza virus fusion inhibition by the antiviral drug Arbidol   |   | Fusion Inhibitors, Influenza |
+| Structural basis of influenza virus fusion inhibition by the antiviral drug Arbidol   | Alex  | Fusion Inhibitors, Influenza |
 | Development of PLpro and 3CLpro Protease Inhibitors as Novel SARS Therapeutics   | Chiara | PL-PRO, 3CL-PRO Inhibitors |
 | Structural basis of neutralization by a human anti-severe acute respiratory syndrome spike protein antibody, 80R   |   | Spike Protein Receptor Binding, Biology, Structure, Antibodies |
 | SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor   | Alex | Spike Protein Receptor Binding, Viral Entry, Inhibitors |
@@ -42,4 +42,7 @@ Please follow the `README_template.md` structure for each article added.
 | Repurposing Therapeutics for COVID-19: Supercomputer-Based Docking to the SARS-CoV-2 Viral Spike Protein and Viral Spike Protein-Human ACE2 Interface   |   | Computational Drug Design, Virus Entry Inhibitors |
 | Mesoscale All-Atom Influenza Virus Simulations Suggest New Substrate Binding Mechanism |   | Computational Drug Design, Influenza |
 | Structure of Mpro from COVID-19 Virus and Discovery of Its Inhibitors   |   | Drug Discovery, 3CL-PRO Structure, Inhibitors  |
+| Tectonic conformational changes of a coronavirus spike glycoprotein promote membrane fusion  | Alex  | Fusion Biology, Structure  |
+| A pan-coronavirus fusion inhibitor targeting the HR1 domain of human coronavirus spike   | Alex  | Fusion Inhibitor |
+| Inhibition of SARS-CoV-2 infection by a highly potent pan-coronavirus fusion inhibitor   | Alex  | Fusion Inhibitor |
 |   |   |   |

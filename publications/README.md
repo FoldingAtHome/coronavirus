@@ -48,6 +48,7 @@ Please follow the `README_template.md` structure for each article added.
 | Inhibitors for Novel Coronavirus Protease
 Identified by Virtual Screening of 687 Million
 Compounds  | Hannah | comp small-molecule |
-| Machine intelligence design of 2019-nCoV drugs | Hannah | comp homology ML |
+| Machine intelligence design of 2019-nCoV drugs | Hannah | comp |
+| Deep learning based drug screening for novel coronavirus 2019-nCov | Hannah | comp |
 | | | |
 

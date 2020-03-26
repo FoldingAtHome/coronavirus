@@ -45,9 +45,7 @@ Please follow the `README_template.md` structure for each article added.
 | Tectonic conformational changes of a coronavirus spike glycoprotein promote membrane fusion  | Alex  | Fusion Biology, Structure  |
 | A pan-coronavirus fusion inhibitor targeting the HR1 domain of human coronavirus spike   | Alex  | Fusion Inhibitor |
 | Inhibition of SARS-CoV-2 infection by a highly potent pan-coronavirus fusion inhibitor   | Alex  | Fusion Inhibitor |
-| Inhibitors for Novel Coronavirus Protease
-Identified by Virtual Screening of 687 Million
-Compounds  | Hannah | comp small-molecule |
+| Inhibitors for Novel Coronavirus ProteaseIdentified by Virtual Screening of 687 MillionCompounds  | Hannah | comp small-molecule |
 | Machine intelligence design of 2019-nCoV drugs | Hannah | comp |
 | Deep learning based drug screening for novel coronavirus 2019-nCov | Hannah | comp |
 | | | |

@@ -32,7 +32,7 @@ All scripts, datasets, and documentation are [permissively and openly licensed](
 
 * All **media components** (text, figures, etc.) are licensed under the [Attribution International (CC BY) 4.0 License](https://creativecommons.org/licenses/by/4.0/)
 * All **code** is licensed under the permissive open source [MIT License](https://opensource.org/licenses/MIT)
-* All **datasets** are licensed under the [Creative Commons CC0 License](https://creativecommons.org/share-your-work/public-domain/cc0/)
+* All **datasets** are licensed under the [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Datasets
 

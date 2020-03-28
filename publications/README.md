@@ -47,6 +47,6 @@ Please follow the `README_template.md` structure for each article added.
 | Inhibition of SARS-CoV-2 infection by a highly potent pan-coronavirus fusion inhibitor   | Alex  | Fusion Inhibitor |
 | Inhibitors for Novel Coronavirus ProteaseIdentified by Virtual Screening of 687 MillionCompounds  | Hannah | comp small-molecule |
 | Machine intelligence design of 2019-nCoV drugs | Hannah | comp |
-| Deep learning based drug screening for novel coronavirus 2019-nCov | Hannah | comp |
+| Deep learning based drug screening for novel coronavirus 2019-nCov | Hannah | comp Mro homology peptide small-molecule |
 | | | |
 

@@ -4,6 +4,7 @@ Walls, A. C. et al. Tectonic conformational changes of a coronavirus spike glyco
 
 # **Summary of Article**
 * Crystal structure of MHV (_Mouse hepatitis virus_, a coronavirus) S2 postfusion machinery (**PDB: 6B3O**)
+* HR2 is not resolved, but HR1 jacknifes outward
 
 
 # **Additional Notes**

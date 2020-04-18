@@ -14,14 +14,14 @@ You can help out by [downloading the Folding@home client](https://foldingathome.
 <img src="https://overclock3d.net/gfx/articles/2020/03/03170309170l.jpg" width="400" />
 
 We're especially in need of more donors with GPUs to help out, and all our GPU projects are devoted to potential drug targets for COVID-19 right now.
-For more information about Folding@home, check out http://foldingathome.org
+For more information about Folding@home, check out https://foldingathome.org/
 
 ## Questions or feedback about running Folding@home
 
 We need to keep the GitHub issue tracker clear for scientific collaborators to discuss input files and data, so please carefully route your questions or feedback as below:
 
 * For **questions about installing or running the Folding@home client software or the science behind our projects**, please use the [Folding Forum](https://foldingforum.org/). A large community of folks can help answer your questions rapidly!
-* For **bug reports with the client (with complete steps to reproduce)**, please use the [Folding@Home client issue tracker](https://github.com/FoldingAtHome/fah-client-pub/issues)
+* For **bug reports with the client (with complete steps to reproduce)**, please use the [Folding@Home client issue tracker](https://github.com/FoldingAtHome/fah-issues/issues)
 * For other labs working on COVID-19 targets, please use the issue tracker for [this project](https://github.com/FoldingAtHome/coronavirus/issues) to ask questions
 
 Thanks so much for your help as we deal with the very large influx of interest!

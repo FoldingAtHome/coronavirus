@@ -1,6 +1,6 @@
 # Folding@home COVID-19 efforts
 
-This repository will contain all input files and generated datasets for the [Folding@home](http://foldingathome.org) efforts to better understand how the SARS-CoV-2 virus that causes [COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/index.html) can be targeted with small molecule and antibody therapeutics.
+This repository will contain all input files and generated datasets for the [Folding@home](https://foldingathome.org) efforts to better understand how the SARS-CoV-2 virus that causes [COVID-19](https://www.cdc.gov/coronavirus/2019-ncov/index.html) can be targeted with small molecule and antibody therapeutics.
 
 This repository will be continuously updated to share results that are being generated on Folding@home.
 You can follow along with news updates on the [Folding@home blog](https://foldingathome.org/news/) and [Folding@home twitter feed](https://twitter.com/foldingathome).
@@ -14,7 +14,7 @@ You can help out by [downloading the Folding@home client](https://foldingathome.
 <img src="https://i.ibb.co/khj9b0M/image.png" width="400" />
 
 We're especially in need of more donors with GPUs to help out, and all our GPU projects are devoted to potential drug targets for COVID-19 right now.
-For more information about Folding@home, check out http://foldingathome.org
+For more information about Folding@home, check out https://foldingathome.org
 
 ## Questions or feedback about running Folding@home
 

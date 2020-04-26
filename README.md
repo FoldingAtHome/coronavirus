@@ -9,9 +9,9 @@ More information on this project can be found on [this Folding@home news post](h
 
 ## How to contribute
 
-You can help out by [downloading the Folding@home client](https://foldingathome.org/start-folding/) to your computer, installing it, and selecting "Any disease" from the Web Control panel:
+You can help out by [downloading the Folding@home client](https://foldingathome.org/start-folding/) to your computer, installing it, and selecting "COVID-19" from the Web Control panel:
 
-<img src="https://overclock3d.net/gfx/articles/2020/03/03170309170l.jpg" width="400" />
+<img src="https://i.ibb.co/khj9b0M/image.png" width="400" />
 
 We're especially in need of more donors with GPUs to help out, and all our GPU projects are devoted to potential drug targets for COVID-19 right now.
 For more information about Folding@home, check out http://foldingathome.org

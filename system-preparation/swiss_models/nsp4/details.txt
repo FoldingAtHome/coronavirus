@@ -1,0 +1,3 @@
+Non-structural protein 4 (nsp4): Participates in the assembly of virally-induced cytoplasmic double-membrane vesicles necessary for viral replication.
+
+High quality models are available for the C-terminus which we predict to be a homo-dimer.

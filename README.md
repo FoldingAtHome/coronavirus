@@ -36,7 +36,7 @@ All scripts, datasets, and documentation are [permissively and openly licensed](
 
 ## Datasets
 
-Links to Folding@home generated datasets will be posted here as soon as the incoming data is batch-processed.
+All Folding@home simulation datasets can be found on the [MolSSI COVID-19 Molecular Structure and Therapeutics Hub](https://covid.molssi.org//org-contributions/#folding--home), created in partnership with the [Molecular Sciences Software Institute (MolSSI)](http://molssi.org).
 
 ## Participating laboratories
 * [Bowman Lab (WashU)](https://bowmanlab.biochem.wustl.edu/) - Folding@home Director

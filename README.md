@@ -21,7 +21,7 @@ For more information about Folding@home, check out https://foldingathome.org
 We need to keep the GitHub issue tracker clear for scientific collaborators to discuss input files and data, so please carefully route your questions or feedback as below:
 
 * For **questions about installing or running the Folding@home client software or the science behind our projects**, please use the [Folding Forum](https://foldingforum.org/). A large community of folks can help answer your questions rapidly!
-* For **bug reports with the client (with complete steps to reproduce)**, please use the [Folding@Home client issue tracker](https://github.com/FoldingAtHome/fah-client-pub/issues)
+* For **bug reports with the client (with complete steps to reproduce)**, please use the [Folding@Home client issue tracker](https://github.com/FoldingAtHome/fah-issues/issues)
 * For other labs working on COVID-19 targets, please use the issue tracker for [this project](https://github.com/FoldingAtHome/coronavirus/issues) to ask questions
 
 Thanks so much for your help as we deal with the very large influx of interest!
@@ -36,11 +36,11 @@ All scripts, datasets, and documentation are [permissively and openly licensed](
 
 ## Datasets
 
-Links to Folding@home generated datasets will be posted here as soon as the incoming data is batch-processed.
+All Folding@home simulation datasets can be found on the [MolSSI COVID-19 Molecular Structure and Therapeutics Hub](https://covid.molssi.org//org-contributions/#folding--home), created in partnership with the [Molecular Sciences Software Institute (MolSSI)](https://molssi.org).
 
 ## Participating laboratories
 * [Bowman Lab (WashU)](https://bowmanlab.biochem.wustl.edu/) - Folding@home Director
-* [Chodera lab (MSKCC)](http://choderalab.org)
+* [Chodera lab (MSKCC)](https://choderalab.org)
 * [Voelz lab (Temple)](http://www.voelzlab.org/)
 
 ## How to contact / collaborate with us

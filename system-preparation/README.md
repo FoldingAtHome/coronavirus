@@ -13,9 +13,10 @@ subdirectory, containing output files from the simulate scripts. The structure t
 Apo structures:
 - SARS-CoV Spike protein receptor-binding domain (`2ajf_sars_rbd`)
 - SARS-CoV-2 Spike protein receptor-binding domain (`6vsb_rbd`)
-- SARS-CoV main protease (3CL-PRO) (`2z9j\`)
+- SARS-CoV main protease (3CL-PRO) (`2z9j`)
 - SARS-CoV-2 main protease (3CL-PRO) (`6lu7_receptor`)
-- SARS-CoV papain-like protease (PL-PRO) (`3e9s`)
+- SARS-CoV papain-like protease (PL-PRO) (`2fe8`)
+- ACE2 (`2ajf_ace2` and `6m17_ace2`)
 - SARS-CoV-2 NSP15 endoribonuclease HEXAMER (`6vww`)
 - SARS-CoV NSP15 endoribonuclease HEXAMER (`2H85`)
 - SARS-CoV-2 main protease DIMER (3CL-PRO) (`6Y2E`)
@@ -34,9 +35,9 @@ Apo structures:
 Complex structures:
 - SARS-CoV Spike protein receptor-binding domain:S230 antibody (`6nb8_2ghv_sars`)
 - SARS-CoV-2 Spike protein receptor-binding domain:S230 antibody (`6nb8_2ghv_sars`)
+- SARS-CoV Spike protein receptor-binding domain:ACE2 (`2ajf_sars`)
 - SARS-CoV-2 Spike protein receptor-binding domain:ACE2 (`2ajf_sars-2`, `6acg_6vsb`, `6m17`)
 - SARS-CoV-2 main protease:peptide-like inhibitor (`6lu7_complex`)
 
 SWISS-MODELS: (https://swissmodel.expasy.org/repository/species/2697049)
-
-*COMING SOON*
+See `swiss_models\`

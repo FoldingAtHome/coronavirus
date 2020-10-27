@@ -13,5 +13,5 @@
 3. Prepare system and equilibrate using OpenMM:
     - Add hydrogens, solvate, minimize, and equilibrate for 5ns, at 2fs timestep, 4amu hydrogens with and `simulate_6lu7_complex.py`
 4. Equilibrate at longer time step using OpenMM:
-    - Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 5fs timestep, 4amu hydrogens with `simulate_4amu_5fs.py`
+    - Starting from the above equilibrated snapshots, equilibrate further for 1.25ns, at 4fs timestep, 4amu hydrogens with `simulate_4amu_4fs.py`
 
